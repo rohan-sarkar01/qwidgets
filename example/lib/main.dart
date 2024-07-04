@@ -33,8 +33,8 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: Column(
         children: [
-          Text('hello'),
-          QText(text: 'heyyy'),
+          const Text('Your Text'),
+          QText(text: 'Button Text'),
           QButton(
             bgColor: Colors.amber,
             text: "test button", 
@@ -42,7 +42,6 @@ class _HomePageState extends State<HomePage> {
               print('btn tapped...');
             }
           ),
-          QText(text: 'test'),
         ],
       ),
     );
