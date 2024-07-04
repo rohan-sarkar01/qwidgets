@@ -1,7 +1,7 @@
 name: qwidgets
 description: "A set of custom widgets."
 version: 0.0.1
-homepage:
+homepage: https://github.com/rohan-sarkar01/qwidgets.git
 
 environment:
   sdk: '>=3.4.3 <4.0.0'
